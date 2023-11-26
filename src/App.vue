@@ -1,13 +1,13 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue';
 
-let tupleType:[string, boolean]=['123',true];
+const tupleType: [string, boolean] = ['123', true];
 
 </script>
 
 <template>
+  元组数据：{{ tupleType }}
   <HelloWorld msg="Vite + Vue" />
-  {{ tupleType }}
 </template>
 
 <style scoped>
@@ -17,9 +17,11 @@ let tupleType:[string, boolean]=['123',true];
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
 }

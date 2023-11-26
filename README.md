@@ -31,6 +31,6 @@ JSX: @vue/babel-preset-jsx -> @vue/babel-plugin-jsx
 
 ## 出现的问题
 
-1. eslint校验
+1. eslint校验不提示
 2. vite 没有热更新
 3. JSX 元素类型“TodoItem”不具有任何构造签名或调用签名：jsx
