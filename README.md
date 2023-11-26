@@ -5,6 +5,7 @@
 1. ts用法
 2. pinia
 3. jsx写法
+4. husky
 
 与vue2的不同之处有：
 
