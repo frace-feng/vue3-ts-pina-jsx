@@ -1,3 +1,5 @@
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
 import { defineStore } from 'pinia'
 
 export const useTodos = defineStore('todos', {
@@ -20,7 +22,7 @@ export const useTodos = defineStore('todos', {
     /**
      * @returns {{ text: string, id: number, isFinished: boolean }[]}
      */
-    filteredTodos(state) {
+    filteredTodos() {
       if (this.filter === 'finished') {
         // 调用其他带有自动补全的 getters ✨
         return this.finishedTodos
